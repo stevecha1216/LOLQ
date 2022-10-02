@@ -15,9 +15,6 @@ class LOLQ(tk.Tk):
         self.lf = LabelFrame(self, text = "Click button to start or stop the Auto Accept program")
         self.lf.pack(expand = "yes", fill = "both")
 
-        #go indicates if the auto accept program is running or not
-        go = False
-
         self.startButton = Button(self.lf, text = "Start", command = self.startCall)
         self.startButton.pack()
 
